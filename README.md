@@ -25,19 +25,19 @@
 latexmk -xelatex cjc.dtx
 ```
 
-编译论文 `main.pdf`：
+编译论文 `example.pdf`：
 ```
-latexmk -xelatex main.tex
+latexmk -xelatex example.tex
 ```
 
 清理论文编译过程中的临时文件：
 ```
-latexmk -c main.tex
+latexmk -c example.tex
 ```
 
 以上编译过程也可以用 `make` 工具：
 ```
 make doc        # 编译生成 cjc.pdf
-make            # 编译生成论文 main.pdf
+make            # 编译生成论文 example.pdf
 make clean      # 删除编译过程中生成的临时文件
 ```

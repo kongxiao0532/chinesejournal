@@ -1,7 +1,5 @@
-main.pdf
-cjc.pdf
-*.hd
-build
+example.pdf
+build/
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
