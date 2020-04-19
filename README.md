@@ -1,5 +1,7 @@
 # 中文期刊 LaTeX 模板框架
 
+[![Build](https://github.com/CTeX-org/chinesejournal/workflows/Test/badge.svg)](https://github.com/CTeX-org/chinesejournal/actions)
+
 本项目是中文期刊 LaTeX 模板的一个编写框架，
 包括模板代码、注释、文档，示例论文，以及用于维护模板的持续集成和单元测试。
 该框架以[《计算机学报》](http://cjc.ict.ac.cn)的要求为基础，
@@ -18,12 +20,6 @@
 
 
 ## 使用模板
-
-模板的源代码代码位于 `cjc.dtx` 文件中，
-编译模板的使用说明文档 `cjc.pdf`：
-```
-latexmk -xelatex cjc.dtx
-```
 
 编译论文 `example.pdf`：
 ```
